@@ -1,0 +1,225 @@
+[{
+        "id": 1,
+        "nombre": "Auriculares Redragon H120 con cable USB",
+        "precio": 20990,
+        "descripcion": "Auriculares gamer con cancelación de ruido, con microfono incorporado y un cable de 2 Mts.",
+        "imagen": "Prod-01.jpg",
+        "categoria": ["Periféricos", "Auriculares"]
+    },
+    {
+        "id": 2,
+        "nombre": "Teclado Redragon Kumara K552",
+        "precio": 47990,
+        "descripcion": "Teclado Redragon Kumara K552, con iluminación RGB, antisalpicaduras, con switch del tipo Outemu (Switch Blue).",
+        "imagen": "Prod-02.jpg",
+        "categoria": ["Periféricos", "Teclados"]
+    },
+    {
+        "id": 3,
+        "nombre": "Mouse Redragon Griffin M607W",
+        "precio": 23190,
+        "descripcion": "Mouse Redragon color blanco, con iluminación Rainbow, con DPI Ajustable.",
+        "imagen": "Prod-03.jpg",
+        "categoria": ["Periféricos", "Mouses"]
+    },
+    {
+        "id": 4,
+        "nombre": "WebCam Logitech C922 - 1080P",
+        "precio": 127750,
+        "descripcion": "Webcam Logitech, con calidad Full HD 1080p, perfecta para el uso cotidiano y para stremear.",
+        "imagen": "Prod-04.jpg",
+        "categoria": ["Periféricos", "WebCam"]
+    },
+    {
+        "id": 5,
+        "nombre": "Monitor LG 24 '' (Entrada HDMI)",
+        "precio": 335000,
+        "descripcion": "Monitor LG de 24'' con iluminación del tipo EDGE, con entrada HDMI y conector de Auriculares. Consumo de 30W con conector externo.",
+        "imagen": "Prod-05.jpg",
+        "categoria": "Monitor"
+    },
+    {
+        "id": 6,
+        "nombre": "Microprocesador AMD Ryzen 5600G",
+        "precio": 183500,
+        "descripcion": "Procesador AMD Ryzen 5600G, de 6 núcleos y 12 hilos, con graficos integrados. (Incluye Cooler cpu).",
+        "imagen": "Prod-06.jpg",
+        "categoria": "Procesadores"
+    },
+    {
+        "id": 7,
+        "nombre": "Gabinete Kolink Inspire K20 con vidrio templado",
+        "precio": 46210,
+        "descripcion": "Gabinete Kolink Inspire K20, con vidrio templado en el panel lateral izquierdo, color negro e iluminación led en el panel frontal.",
+        "imagen": "Prod-07.jpg",
+        "categoria": "Gabinetes"
+    },
+    {
+        "id": 8,
+        "nombre": "Mother ASUS PRIME B450M-A",
+        "precio": 98210,
+        "descripcion": "Motherboard ASUS PRIME B450m-A, Plataforma AMD, con capacidad maxima de expanción de 128GB tipo DDR4, HDMI M.2 y USB 3.2, de color negro.",
+        "imagen": "Prod-08.jpg",
+        "categoria": "MotherBoards"
+    },
+    {
+        "id": 9,
+        "nombre": "Notebook Lenovo IdeaPad 3 FHD 15.6''",
+        "precio": 529000,
+        "descripcion": "Notebook Lenovo IdeaPad 3 15ALC6 FHD 15.6'' Ryzen 3 5300U, 8GB de ram, 256GB SSD.",
+        "imagen": "Prod-09.jpg",
+        "categoria": "Laptops"
+    },
+    {
+        "id": 10,
+        "nombre": "Placa de Video ASUS GeForce RTX 3050",
+        "precio": 247350,
+        "descripcion": "Placa de Video ASUS GeForce RTX 3050 6GB GDDR6 DUAL OC, con salida HDMI.",
+        "imagen": "Prod-10.jpg",
+        "categoria": "Placas de Video"
+    },
+    {
+        "id": 11,
+        "nombre": "Memoria Team DDR5 32GB (2x16GB)",
+        "precio": 164170,
+        "descripcion": "Memoria Team DDR5 32GB (2x16GB). 6400MHz T-Force Delta RGB Black CL40 Intel XMP 3.0, tipo DDR5.",
+        "imagen": "Prod-11.jpg",
+        "categoria": "Memorias"
+    },
+    {
+        "id": 12,
+        "nombre": "Disco Solido SSD M.2 Patriot 1TB",
+        "precio": 110200,
+        "descripcion": "Disco Solido SSD, con conexión del tipo M.2, Patriot 1TB P400 7000MB/s Pcie Gen4 x4.",
+        "imagen": "Prod-12.jpg",
+        "categoria": ["Almacenamiento", "Disco Solido"]
+    },
+    {
+        "id": 13,
+        "nombre": "KIT AMD RYZEN 5 3600 + Mother Asrock B450M-HDV",
+        "precio": 225900,
+        "descripcion": "Kit de actualización de componentes para tu pc. Incluye: MicroProcesador Ryzen 5 3600 y Placa madre Mother Asrock B450M-HDV.",
+        "imagen": "Prod-13.jpg",
+        "categoria": "Combos"
+    },
+    {
+        "id": 14,
+        "nombre": "Cooler CPU Antec Symphony 240 ARGB Water Cooler",
+        "precio": 143370,
+        "descripcion": "Cooler CPU Antec Symphony 240 Water Cooler. Contiene 2 coolers fans y tiene como tipo de iluminación ARGB.",
+        "imagen": "Prod-14.jpg",
+        "categoria": "Refrigeración"
+    },
+    {
+        "id": 15,
+        "nombre": "Impresora Laser Brother HL1200",
+        "precio": 156750,
+        "descripcion": "Impresora laser brother HL1200, unicamente impresiones en B&N.",
+        "imagen": "Prod-15.jpg",
+        "categoria": "Impresoras"
+    },
+    {
+        "id": 16,
+        "nombre": "Cable de poder para fuente de PC",
+        "precio": 3100,
+        "descripcion": "Cable de alimentación para pc, enchufe de 3 (tres) patas. Medidas: 0,75mm 1,5mts.",
+        "imagen": "Prod-16.jpg",
+        "categoria": "Conectividad"
+    },
+    {
+        "id": 17,
+        "nombre": "Auriculares JBL Quantum 910 Wireless 2.4Ghz",
+        "precio": 439990,
+        "descripcion": "Auriculares JBL Quantum 910 Wireless 2.4Ghz Bluetooth 5.2 USB-C RGB 40Hs PC/PS4/PS5/XBOX.",
+        "imagen": "Prod-17.jpg",
+        "categoria": ["Periféricos", "Auriculares"]
+    },
+    {
+        "id": 18,
+        "nombre": "Play Station 5 Standard (Blanca)",
+        "precio": 1000000,
+        "descripcion": "Play Station 5 Standard 825GB Edicion Blanco y Negro.",
+        "imagen": "Prod-18.jpg",
+        "categoria": "Consolas"
+    },
+    {
+        "id": 19,
+        "nombre": "Placa de Video XFX Radeon RX 6650",
+        "precio": 340990,
+        "descripcion": "Placa de Video XFX Radeon RX 6650 XT 8GB GDDR6 Speedster SWFT 210.",
+        "imagen": "Prod-19.jpg",
+        "categoria": "Placas de Video"
+    },
+    {
+        "id": 20,
+        "nombre": "Mother ASUS B660M WIFI + Intelcore I5 + (16GB x2)",
+        "precio": 475490,
+        "descripcion": "Kit Mother ASUS TUF B660M-PLUS WIFI D4 + Procesador Intel Core I5 12400F 4.4GHz Turbo (Sin Video Integrado) + Memoria Team DDR4 16GB 3200Mhz Vulcan ASUS TUF Certificate.",
+        "imagen": "Prod-20.jpg",
+        "categoria": "Combos"
+    },
+    {
+        "id": 21,
+        "nombre": "Consola Nintendo Switch Neon",
+        "precio": 469000,
+        "descripcion": "Consola Nintendo Switch Neon (Sin Cargador) Inc. Cable USB-C.",
+        "imagen": "Prod-21.jpg",
+        "categoria": "Consolas"
+    },
+    {
+        "id": 22,
+        "nombre": "Gabinete Antec NX292 RGB black ",
+        "precio": 63900,
+        "descripcion": "Gabinete Antec NX292 RGB MESH Black 3x120mm RGB Fans + 1x120mm Fan Vidrio Templado.",
+        "imagen": "Prod-22.jpg",
+        "categoria": "Gabinetes"
+    },
+    {
+        "id": 23,
+        "nombre": "Fuente Corsair 550W 80 plus color negro",
+        "precio": 86150,
+        "descripcion": "Fuente Corsair 550W 80 Plus Bronze CV550.",
+        "imagen": "Prod-23.jpg",
+        "categoria": "Fuentes"
+    },
+    {
+        "id": 24,
+        "nombre": "Parlante Thonet & Vander Speaker",
+        "precio": 164990,
+        "descripcion": "Parlante Thonet & Vander Speaker Sound Bar Balken TWS Bluetooth PC Smart TV 42W.",
+        "imagen": "Prod-24.jpg",
+        "categoria": ["Periféricos", "Parlantes"]
+    },
+    {
+        "id": 25,
+        "nombre": "Monitor Smart Samsung 32'' M5 Full HD",
+        "precio": 381000,
+        "descripcion": "Monitor Smart Samsung 32'' M5 Full HD Apps WiFi BT HDR10 VA 60Hz.",
+        "imagen": "Prod-25.jpg",
+        "categoria": "Monitor"
+    },
+    {
+        "id": 26,
+        "nombre": "Disco Rigido Seagate 1TB Tipo: SATA",
+        "precio": 56660,
+        "descripcion": "Disco Rigido Seagate 1TB SkyHawk 256MB 5.4K RPM. Interfaz SATA, Capacidad: 1000GB.",
+        "imagen": "Prod-26.jpg",
+        "categoria": ["Almacenamiento", "Disco Rigido"]
+    },
+    {
+        "id": 27,
+        "nombre": "Joystick Redragon Saturn G807 PC",
+        "precio": 21990,
+        "descripcion": "Joystick Redragon Saturn G807 para PC, con conexión tipo USB.",
+        "imagen": "Prod-27.jpg",
+        "categoria": ["Periféricos", "Mandos"]
+    },
+    {
+        "id": 28,
+        "nombre": "Microfono JBL Quantum Stream",
+        "precio": 212990,
+        "descripcion": "Microfono JBL Quantum Stream Studio Profesional Condensador RGB USB-C, Color Negro. Incluye: Base y regulación del audio.",
+        "imagen": "Prod-28.jpg",
+        "categoria": ["Periféricos", "Microfonos"]
+    }
+]
