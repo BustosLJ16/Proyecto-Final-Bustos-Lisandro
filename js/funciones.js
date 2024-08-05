@@ -1,3 +1,17 @@
+let productos = [];
+// Función para obtener productos desde JSON
+async function obtenerProductosJSON() {
+    try {
+        const response = await fetch('../json/productos.json');
+        const data = await response.json();
+        productos = data;
+        return productos; // Devuelve los productos cargados
+    } catch (error) {
+        console.error('Error al cargar productos:', error);
+    }
+}
+obtenerProductosJSON();
+
 // Creo Funciones para Gestionar el Carrito
 function agregarCarrito (id) {
     const producto = productos.find(item => item.id == id);
@@ -41,12 +55,11 @@ function vaciarCarrito() {
     console.log("El carrito se ha vaciado correctamente!");
 }
 
+// Función para cargar el producto desde `localStorage`
 function cargarProductoLS() {
-    let id = JSON.parse(localStorage.getItem("producto"));
-    const producto = productos.find(item => item.id == id);
-    return producto;
+    const id = JSON.parse(localStorage.getItem("producto"));
+    return productos.find(item => item.id == id);
 }
-
 function guardarProductoLS(id) {
     localStorage.setItem("producto", JSON.stringify(id));
 }

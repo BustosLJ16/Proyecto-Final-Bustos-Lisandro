@@ -1,5 +1,3 @@
-let productos = []; // Declaro mi variable "Productos" como Global
-
 function cargarProductosJSON(){
     const contenidoHTML = document.querySelector('#contenido');
 
