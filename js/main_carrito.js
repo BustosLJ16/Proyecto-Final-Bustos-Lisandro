@@ -14,19 +14,18 @@ function renderCarrito(){
             <td class="text-end align-middle"><button class="btn btn-danger btn-sm" onclick="eliminarCarrito(${producto.id});";">Eliminar <i class="bi bi-x-circle"></i></button></td>
             </tr>`
         }
-        contenidoHTML += `<tr>
-            <td></td>
-            <td></td>
-            <td class="text-center align-middle">
-            <span class="card-text text-center text-danger"><p>Su total a pagar es de:</p> <p><strong> $${calcularTotal()} ARS</strong></p></span></td>
-            </tr>`
-        contenidoHTML += `<tr>
-            <td><input type="text" class="form-control" id="cupon" placeholder="Ingrese Su cupón Aquí"></td>
-            <td><button type="button" class="btn btn-primary mb-3" name="Enviar" value="Enviar" onclick="recibir();">Confirmar Cupón</button></td>
-            <td class="text-center align-middle">
-                <span class="card-text text-center text-danger">
-                    <p id="mensajeFinal"></p> <strong><p id="precioFinal"></p></strong>
-                </span></td>
+                contenidoHTML +=`</tbody>
+        </table>`
+
+        contenidoHTML += `<table class="table">
+        <tbody>
+            <tr>
+                <td class="text-start align-middle"><input type="text" class="form-control" id="cupon" placeholder="Ingrese Su cupón Aquí"></td>
+                <td class="text-start align-middle"><button type="button" class="btn btn-primary" name="Enviar" value="Enviar" onclick="recibirCupon();">Confirmar Cupón</button></td>
+                <td class="text-danger text-end align-middle d-inline-flex p-3">
+                    <p id="mensajeFinal">El total de al compra es de: <strong>$</p>
+                    <p id="precioFinal"> ${calcularTotal()}</p></strong>
+                </td>
             </tr>`
 
         contenidoHTML +=`</tbody>
@@ -39,7 +38,10 @@ function renderCarrito(){
     }
 
     document.getElementById("contenidoCarrito").innerHTML = contenidoHTML;
+
+
 }
 
 renderCarrito();
 renderBotonCarrito();
+obtenerPago();
