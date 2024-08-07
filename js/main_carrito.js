@@ -30,6 +30,7 @@ function renderCarrito(){
 
         contenidoHTML +=`</tbody>
         </table>`;
+        obtenerPago();
     } else {
         contenidoHTML = `<div class="alert alert-dark my-5 text-center" role="alert">
         <h2>Lo sentimos mucho</h2>
@@ -44,4 +45,3 @@ function renderCarrito(){
 
 renderCarrito();
 renderBotonCarrito();
-obtenerPago();

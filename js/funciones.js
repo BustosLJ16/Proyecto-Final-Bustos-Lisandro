@@ -20,6 +20,31 @@ function agregarCarrito (id) {
     localStorage.setItem("carrito", JSON.stringify(carrito));
     console.log("El producto fue agregado con exito!");
     renderBotonCarrito();
+    alertaAgregarCarrito();
+}
+
+// Función que dispara una alerta de Toastify al agregar al carrito
+function alertaAgregarCarrito() {
+    Toastify({
+        text: "¡El producto Se agregó Correctamente!",
+        duration: 3000
+        }).showToast();
+}
+
+// Función que dispara una alerta de Toastify al eliminar el carrito
+function alertaEliminarDelCarrito() {
+    Toastify({
+        text: "¡El producto Se eliminó Correctamente!",
+        duration: 3000
+        }).showToast();
+}
+
+// Función que dispara una alerta de Toastify al eliminar el carrito
+function alertaVaciarCarrito() {
+    Toastify({
+        text: "¡El carrito se vacio Correctamente!",
+        duration: 3000
+        }).showToast();
 }
 
 function eliminarCarrito(id) {
@@ -28,6 +53,7 @@ function eliminarCarrito(id) {
     guardarCarritoLS(carritoActualizado);
     renderCarrito();
     renderBotonCarrito();
+    alertaEliminarDelCarrito();
 }
 
 function renderBotonCarrito() {
@@ -53,14 +79,15 @@ function vaciarCarrito() {
     renderCarrito();
     renderBotonCarrito();
     console.log("El carrito se ha vaciado correctamente!");
+    alertaVaciarCarrito();
 }
 
-// Función para cargar el producto desde `localStorage`
+// Función para cargar el producto desde "localStorage"
 function cargarProductoLS() {
     const id = JSON.parse(localStorage.getItem("producto"));
     return productos.find(item => item.id == id);
 }
-function guardarProductoLS(id) {
+function idProductoDetallado(id) { // Obtiene el ID del producto, y lo refleja de forma detallada en producto.html
     localStorage.setItem("producto", JSON.stringify(id));
 }
 
@@ -125,7 +152,7 @@ function obtenerPago() {
     let seccionDePagos = "";
 
     if (totalProductos() > 0) {
-        seccionDePagos = `
+        seccionDePagos = `<div class=" border border-dark rounded">
             <h5 class="my-4 display-6 text-dark">Pago</h5>
             <form id="formPago" class="row justify-content-center">
                 <div class="col-auto">
@@ -143,7 +170,8 @@ function obtenerPago() {
                 <div class="col-auto">
                     <button type="submit" id="botonConfirmarPago" class="btn btn-primary mb-3">Confirmar Pago</button>
                 </div>
-            </form>`;
+            </form>
+        </div>`;
     }
 
     document.getElementById("casillaDePago").innerHTML = seccionDePagos;

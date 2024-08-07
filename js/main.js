@@ -8,9 +8,9 @@ function cargarProductosJSON(){
         let productosHTML = ""; // Declaro la variable del contenido HTML de mis productos
         
         for (const producto of productos) {
-            productosHTML += `<div class="col-md-3">
+            productosHTML += `<div class="col-md-3 animate__animated card-container">
             <div class="card border-0">
-            <a href="./pages/producto.html" onclick="guardarProductoLS(${producto.id});">
+            <a href="./pages/producto.html" onclick="idProductoDetallado(${producto.id});">
                 <img src="./assets/imagenes-productos/${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
             </a>
             <div class="card-body">
@@ -22,9 +22,18 @@ function cargarProductosJSON(){
         </div>`;
         }
         contenidoHTML.innerHTML = productosHTML;
+        
+        // Aplico mi animación
+        const elementos = document.querySelectorAll('.col-md-3');
+        elementos.forEach((elemento, index) => {
+            setTimeout(() => {
+                elemento.classList.add('animate__zoomIn');
+            }, index * 100);
+        });
     })
     .catch(error => console.error('Error al cargar los productos', error));
 }
+
 
 
 cargarProductosJSON();

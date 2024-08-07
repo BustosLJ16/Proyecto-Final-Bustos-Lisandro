@@ -1,0 +1,12 @@
+/* Animación de zoom al producto cuando paso por encima con el cursor */
+.card-container {
+    position: relative;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
