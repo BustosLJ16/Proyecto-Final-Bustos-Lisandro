@@ -1,7 +1,7 @@
 function cargarProductosJSON(){
     const contenidoHTML = document.querySelector('#contenido');
 
-    fetch('json/productos.json')
+    fetch('/Proyecto-Final-JS-Bustos-Lisandro/json/productos.json')
     .then(response => response.json())
     .then(data => {
         productos = data; // Guarda los productos obtenidos en la variable "Productos" pisando su contenido
