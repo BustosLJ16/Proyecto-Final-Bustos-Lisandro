@@ -7,7 +7,7 @@ Dichos códigos, para utilizarlos (si es que el usuario quiere, y/o tiene alguno
 - Compr4gam3r
 - D3scuent70
 - Cupon10
-  
+
 En caso de no ser aplicados correctamente o directamente no usar ninguno, el programa sigue su ejecución, mostrando el resultado total de los productos sin algún tipo de descuento aplicado.
 
 También, dentro de la sección del carrito, nos encontramos con la casilla de pago, en la cual se ejecuta un mini simulador parecido a cuando un pago con tarjeta es aceptado o rechazado por el sistema.
