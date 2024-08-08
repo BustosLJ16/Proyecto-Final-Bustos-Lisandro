@@ -2,7 +2,7 @@ let productos = [];
 // Función para obtener productos desde JSON
 async function obtenerProductosJSON() {
     try {
-        const response = await fetch('json/productos.json');
+        const response = await fetch('./json/productos.json');
         const data = await response.json();
         productos = data;
         return productos; // Devuelve los productos cargados
