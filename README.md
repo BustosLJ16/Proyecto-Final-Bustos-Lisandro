@@ -14,5 +14,4 @@ También, dentro de la sección del carrito, nos encontramos con la casilla de p
 Esto se creó utilizando los métodos de Math. Para generar así un sistema de elección al azar, con su resultado reflejado como la respuesta ante el proceso de pago del usuario, notificado posteriormente con una alerta de SweetAlert.
 
 
-Muchas gracias por su atención.
-Saludos, Bustos Lisandro.
+Muchas gracias por su atención.Saludos, Bustos Lisandro.
